@@ -1,6 +1,6 @@
 {
   "name": "npm-ping",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "NPM name availability check in CLI",
   "author": "Anthony Fu <anthonyfu117@hotmail.com>",
   "license": "MIT",
