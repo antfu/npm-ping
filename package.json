@@ -1,0 +1,26 @@
+{
+  "name": "npm-ping",
+  "version": "0.0.0",
+  "description": "NPM name availability check in CLI",
+  "author": "Anthony Fu <anthonyfu117@hotmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/antfu/npm-ping/issues"
+  },
+  "homepage": "https://github.com/antfu/npm-ping#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antfu/npm-ping.git"
+  },
+  "bin": {
+    "npm-ping": "./npm-ping.js"
+  },
+  "scripts": {
+    "dev": "node npm-ping.js",
+    "release": "npx bumpp --commit --push --tag && npm publish --access public"
+  },
+  "dependencies": {
+    "axios": "^0.21.0",
+    "chalk": "^4.1.0"
+  }
+}
